@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">에어비앤비검색</string>
+    <string name="action_settings">설정</string>
+
+    <string name="title_select_date">날짜선택</string>
+    <string name="title_guests">게스트</string>
+    <string name="title_accommodation_type">숙소</string>
+    <string name="title_price">가격</string>
+    <string name="title_amenities">편의시설</string>
+
+    <string name="hint_start_date">체크인</string>
+    <string name="hint_select_date">\n 날짜선택</string>
+    <string name="hint_end_date">체크아웃</string>
+    <string name="hint_selectEnd_date">\n -</string>
+</resources>
