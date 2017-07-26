@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        // button의 특정 글자 색만 바꾸기
+        // button의 특정 글자 색만 바꾸기  (위젯의 android:textAllCaps="false" 적용해야함 -> 대문자는 인식못하기때문)
         btnStart = (Button)findViewById(R.id.btnStart);
         String btnCheckInDate = getString(R.string.hint_start_date)
                 +"<br> <font color = '#E14269'>"+getString(R.string.hint_select_date)+"</font>";
