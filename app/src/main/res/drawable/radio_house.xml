@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- 체크박스 해제상태 -->
-    <item android:drawable="@drawable/bed" android:state_checked="false" />
+    <item android:drawable="@drawable/house" android:state_checked="false" />
     <!-- 체크박스 선택상태 -->
-    <item android:drawable="@drawable/bed_c" android:state_checked="true" />
+    <item android:drawable="@drawable/house_c" android:state_checked="true" />
     <!-- default state -->
-    <item android:drawable="@drawable/bed" />
+    <item android:drawable="@drawable/house" />
 </selector>
