@@ -97,7 +97,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Log.i("calender", "year:"+i+", month:"+i1+", dayOfMonth:"+i2);
             String theDay = String.format("%d-%02d-%02d", i, i1, i2);
 //            String theDay = String.format("%s = %d", "joe", 35);
-            // String.format("%s = %d", "joe", 35);
             switch (checkStatus) {
                 case CHECK_IN:
                     search.checkInDate = theDay;
