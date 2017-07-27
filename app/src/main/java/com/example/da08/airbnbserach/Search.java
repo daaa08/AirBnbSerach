@@ -16,8 +16,8 @@ public class Search {
     public static final String AM_HAIR        = "hair dryer";
     public static final String AM_BED         = "bed";
 
-    public String checkInDate;
-    public String checkOutDate;
+    public String checkInDate = null;
+    public String checkOutDate = null;
     public int guest =1;
     public int type;
     public int price_min;

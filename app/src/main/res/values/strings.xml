@@ -9,7 +9,7 @@
     <string name="title_amenities">Amenitier</string>
 
     <string name="hint_start_date">Check In</string>
-    <string name="hint_select_date">\n Select Date</string>
     <string name="hint_end_date">Check out</string>
-    <string name="hint_selectEnd_date">\n -</string>
+    <string name="hint_select_date">\n Select Date</string>
+    <!--<string name="hint_selectEnd_date">\n -</string>-->
 </resources>

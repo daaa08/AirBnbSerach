@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnStart = (Button) findViewById(R.id.btnStart);
         btnEnd = (Button) findViewById(R.id.btnEnd);
         fab = (FloatingActionButton) findViewById(R.id.fab);
+        btnStart.setOnClickListener(this);
+        btnEnd.setOnClickListener(this);
 
     }
 
@@ -94,6 +96,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     CalendarView.OnDateChangeListener dateChangeListener = new CalendarView.OnDateChangeListener() {
         @Override
         public void onSelectedDayChange(@NonNull CalendarView calendarView, int i, int i1, int i2) {
+            i1 = i1 + 1;
             Log.i("calender", "year:"+i+", month:"+i1+", dayOfMonth:"+i2);
             String theDay = String.format("%d-%02d-%02d", i, i1, i2);
 //            String theDay = String.format("%s = %d", "joe", 35);
