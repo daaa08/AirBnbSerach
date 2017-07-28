@@ -18,7 +18,13 @@ public class Search {
 
     public String checkInDate = null;
     public String checkOutDate = null;
-    public int guest =1;
+    public int guests =1;
+    public void setGuests(int count){
+            if(count > 1) guests = count;
+        }
+    public int getGuests(){
+        return guests;
+    }
     public int type;
     public int price_min;
     public int price_max;
